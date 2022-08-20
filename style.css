@@ -171,6 +171,32 @@
     color: black;
 }
 
+#services .image-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: #051324;
+}
+
+#services .image-section img{
+    object-fit: contain;
+    max-width: 35%;
+    height: auto;
+    width: auto\9;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#services .image-section img:hover{
+    object-fit: contain;
+    max-width: 45%;
+    height: auto;
+    width: auto\9;
+    margin: 5px;
+    border-radius: 10px;
+}
+
 
 /*advantages section*/
 
